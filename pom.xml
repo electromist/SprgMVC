@@ -46,42 +46,51 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.4.2.Final</version>
+            <version>6.2.0.CR3</version>
         </dependency>
         <!--         MySQl Dependencies-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
+            <version>8.0.33</version>
         </dependency>
         <!-- MySQl Dependencies-->
         <!-- Spring JDBC Dependency -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>5.3.10</version>
+            <version>6.0.6</version>
         </dependency>
 
         <!-- Spring JDBC Dependency -->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring -->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+            <version>5.3.27</version>
+            <type>pom</type>
+        </dependency>
+
         <!-- Spring Context Dependency -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.2.3.RELEASE</version>
+            <version>6.0.9</version>
         </dependency>
         <!-- Spring Context Dependency -->
         <!-- SpringORM Dependency -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
-            <version>5.2.3.RELEASE</version>
+            <version>6.0.6</version>
         </dependency>
         <!-- SpringORM Dependency -->
         <!-- Spring Core Dependency -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.2.3.RELEASE</version>
+            <version>6.0.6</version>
         </dependency>
         <!-- Spring Core Dependency -->
 
@@ -89,7 +98,7 @@
         <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-web-api</artifactId>
-            <version>9.1.0</version>
+            <version>10.0.0</version>
             <scope>provided</scope>
         </dependency>                                                                                    <dependency>
         <groupId>org.hibernate.orm</groupId>
@@ -120,7 +129,7 @@
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
-            <version>1.0.0.Final</version>
+            <version>1.0.2.Final</version>
         </dependency>
 
         <dependency>
